@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.touristinbrasov">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TouristInBrasov">
+        <activity
+            android:name=".Opening"
+            android:exported="true" />
+        <activity
+            android:name=".food.restaurants.AvramIancu"
+            android:exported="true" />
+        <activity
+            android:name=".food.restaurants.Sergiana"
+            android:exported="true" />
+        <activity
+            android:name=".food.restaurants.Tudor"
+            android:exported="true" />
+        <activity
+            android:name=".food.fastfood.Subway"
+            android:exported="true" />
+        <activity
+            android:name=".food.fastfood.KFC"
+            android:exported="true" />
+        <activity
+            android:name=".food.fastfood.Mc"
+            android:exported="true" />
+        <activity
+            android:name=".food.coffee.Tucano"
+            android:exported="true" />
+        <activity
+            android:name=".food.coffee.Meron"
+            android:exported="true" />
+        <activity
+            android:name=".food.coffee.starbucks"
+            android:exported="true" />
+        <activity
+            android:name=".food.Fastfood"
+            android:exported="true" />
+        <activity
+            android:name=".food.Restaurants"
+            android:exported="true" />
+        <activity
+            android:name=".food.Coffee"
+            android:exported="true" />
+        <activity
+            android:name=".Food"
+            android:exported="true" />
+        <activity
+            android:name=".visit.Bucharest"
+            android:exported="true" />
+        <activity
+            android:name=".visit.Sighisoara"
+            android:exported="true" />
+        <activity
+            android:name=".visit.Sibiu"
+            android:exported="true" />
+        <activity
+            android:name=".fun.Zoo"
+            android:exported="true" />
+        <activity
+            android:name=".fun.Club"
+            android:exported="true" />
+        <activity
+            android:name=".fun.Aventura"
+            android:exported="true" />
+        <activity
+            android:name=".fun.Paradis"
+            android:exported="true" />
+        <activity
+            android:name=".castles.Rasnov"
+            android:exported="true" />
+        <activity
+            android:name=".castles.Rupea"
+            android:exported="true" />
+        <activity
+            android:name=".castles.Peles"
+            android:exported="true" />
+        <activity
+            android:name=".castles.Cantacuzino"
+            android:exported="true" />
+        <activity
+            android:name=".castles.Bran"
+            android:exported="true" />
+        <activity
+            android:name=".Visit"
+            android:exported="true" />
+        <activity
+            android:name=".Fun"
+            android:exported="true" />
+        <activity
+            android:name=".Nature"
+            android:exported="true" />
+        <activity
+            android:name=".Castels"
+            android:exported="true" />
+        <activity
+            android:name=".museums.MuseumScience"
+            android:exported="true" />
+        <activity
+            android:name=".museums.MuseumCivil"
+            android:exported="true" />
+        <activity
+            android:name=".museums.MuseumArt"
+            android:exported="true" />
+        <activity
+            android:name=".museums.BUM"
+            android:exported="true" />
+        <activity
+            android:name=".museums.First_School"
+            android:exported="true" />
+
+
+        <activity
+            android:name=".museums.MuseumHistory"
+            android:exported="true" />
+        <activity
+            android:name=".Museums"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
